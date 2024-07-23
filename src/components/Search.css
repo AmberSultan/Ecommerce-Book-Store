@@ -1,0 +1,34 @@
+.mail{
+    margin-top: 2pc;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(80, 79, 79);
+    border-radius: 30px;
+    padding-top: 4px ;
+    padding-bottom: 4px ;
+    width: 77%;
+}
+.search{
+    border: none;
+    margin-left: 12px;
+    outline: none;
+    background-color: transparent;
+}
+.search::placeholder{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.notify{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px 30px;
+    font-size: 15px;
+    margin-left: 85px;
+    
+}
+.notify:hover{
+    background-color: rgb(31, 30, 30);
+}

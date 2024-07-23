@@ -1,0 +1,34 @@
+.navbar{
+    font-family: 'Inter',sans-serif;
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-weight: 700;
+}
+.list-nav{
+    display: flex;
+    justify-content: center;
+}
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .navbar-collapse {
+    justify-content: center;
+  }
+  .navbar-nav .nav-item .nav-link {
+    margin: 0 15px;
+  }
+  .d-flex.align-items-center {
+    display: flex;
+    align-items: center;
+  }
+  .form-check.form-switch {
+    margin-left: 10px;
+  }
+  
