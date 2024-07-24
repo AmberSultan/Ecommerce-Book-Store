@@ -1,0 +1,32 @@
+.contact-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .contact-card h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .contact-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+  }
+
+  .booksImg {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block; 
+    margin: 20px auto; 
+}
+
+  
