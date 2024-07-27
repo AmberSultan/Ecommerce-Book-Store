@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './FeaturedBooks.css';
-import booksData from './apiData'; // Assuming booksData.js is in the same directory
+import booksData from './apiData';
 
 function FeaturedBooks() {
   const [books, setBooks] = useState([]);
