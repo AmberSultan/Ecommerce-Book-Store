@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Product from './components/Product/Product';
 import FeaturedBooks from './components/FeaturedBooks/FeaturedBooks';
+import Cart from './components/Cart/Cart.jsx'
 
 function App() {
   const [mode, setMode] = useState('light');
@@ -34,6 +35,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/books" element={<FeaturedBooks />} />
             <Route path="/product/:id" element={<Product />} />
+            <Route path="/cart" element={<Cart/>}/>
           </Routes>
         </div>
         <Footer />

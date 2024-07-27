@@ -3,7 +3,7 @@
     gap: 20px;
     align-items: center;
     justify-content: center; 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
     width: 10pc;
     
@@ -18,7 +18,7 @@
 }
 .detail{
     text-align: left;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .stars{
     color: #FBBC05;
@@ -29,6 +29,7 @@
     background-color: transparent;
     border: none;
     font-size: 18px;
+    font-weight: 600;
 }
 .number{
     margin-top: 10px;

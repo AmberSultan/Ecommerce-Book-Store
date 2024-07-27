@@ -28,7 +28,10 @@ function Navbar(props) {
             </li>
           </ul>
           <div className="navbar-nav col-4 right-nav">
-            <span className="nav-item nav-link"><i className="fa fa-shopping-cart" aria-hidden="true"></i></span>
+            <span className="nav-item nav-link">
+            <Link className='nav-link' to='/cart'>
+            <i className="fa fa-shopping-cart" aria-hidden="true"></i>
+            </Link></span>
             <span className="nav-item nav-link">
               <div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'}`}> 
                 <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault" />
