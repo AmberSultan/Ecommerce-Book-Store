@@ -32,3 +32,39 @@
 .notify:hover{
     background-color: rgb(31, 30, 30);
 }
+
+.mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .search {
+    margin-right: 10px;
+  }
+  
+  .notify {
+    padding: 5px 10px;
+  }
+  
+  .results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .result-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .result-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
