@@ -13,7 +13,7 @@ function Cart() {
       ) : (
         cartItems.map((item) => (
           <div className='cTop' key={item.id}>
-            <h5>Book tiltle :{item.title}</h5>
+            <h5>Book Tiltle :{item.title}</h5>
             <img 
               src={item.coverImage}
               className="card-img-top cImg "
